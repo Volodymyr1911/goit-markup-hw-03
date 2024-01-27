@@ -67,6 +67,7 @@ ul {
     padding-bottom: 25.5px;
     display: flex;
     align-items: center;
+    margin-right: 76px
 }
 
 .logo-studio {
@@ -158,10 +159,7 @@ address {
 
 .hero {
     background: #2E2F42;
-    padding-top: 188px;
-    padding-left: 472px;
-    padding-right: 472px;
-    padding-bottom: 292px;
+    padding: 188px 0 188px;
 }
 
 .hero-title {
@@ -188,6 +186,9 @@ address {
     border-radius: 4px;
     margin-top: 48px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    min-width: 169px;
+    height: 56px;
+    border: none;
 }
 
 .hero-btn:hover,
@@ -261,12 +262,12 @@ address {
 /*=========TEAM=============*/
 .section-team {
     background: #F4F4FD;
-    padding-bottom: 120px;
+    padding: 120px 0 120px;
 }
 
 .title-team {
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -275,13 +276,23 @@ address {
     gap: 24px;
 }
 
+.team-item {
+    border-radius: 0px 0px 4px 4px;
+}
+
 .title-corwokers {
     margin-top: 32px;
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-name-text {
+    padding: 32px 0 32px;
 }
 
 .team-text {
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .background-team {
@@ -293,22 +304,31 @@ address {
 
 /*======================*/
 /*==========PORTFOLIO============*/
+.porfolio {
+    padding: 120px 0 120px 0;
+}
+
 .background-portfolio {
     background: #FFF;
 }
 
 .title-portfolio {
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .porfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 32px 24px;
+    row-gap: 48px;
 }
 
-.porfolio-item {}
+.porfolio-name-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 
 .porfolio-pictures {
     margin-bottom: 32px;
@@ -316,10 +336,11 @@ address {
 
 .card-content {
     padding: 0 16px;
+    margin-bottom: 8px;
 }
 
 .porfolio-text {
-    margin-top: 8px;
+    margin-bottom: 8px;
     padding-bottom: 32px;
 }
 
@@ -328,7 +349,7 @@ address {
 
 footer {
     background: #2E2F42;
-    padding-top: 101.5px;
+    padding: 100px 0 100px;
 }
 
 .text-footer {
@@ -351,6 +372,8 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding-top: 101.5px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-studio-footer {
@@ -361,6 +384,8 @@ footer {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 /*======================*/
