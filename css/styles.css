@@ -74,17 +74,6 @@ img {
 
 .logo-studio {
     color: #2E2F42;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
-    display: flex;
-    align-items: center;
-    margin-right: 76px;
 }
 
 .header-nav {
@@ -365,13 +354,6 @@ footer {
 
 .logo-studio-footer {
     color: #F4F4FD;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    display: inline-block;
 }
 
 /*======================*/
